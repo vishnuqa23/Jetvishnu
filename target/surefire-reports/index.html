@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Org.Project.SpiceJet_Test.HomePageTest">
+              <span class="suite-name border-failed">Org.Project.SpiceJet_Test.HomePageTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Org.Project.SpiceJet_Test.HomePageTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Org.Project.SpiceJet_Test.HomePageTest">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Org.Project.SpiceJet_Test.HomePageTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Org.Project.SpiceJet_Test.HomePageTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Org.Project.SpiceJet_Test.HomePageTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Org.Project.SpiceJet_Test.HomePageTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Org.Project.SpiceJet_Test.HomePageTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Org.Project.SpiceJet_Test.HomePageTest" class="hide-methods failed suite-Org.Project.SpiceJet_Test.HomePageTest"> (hide)</a> <!-- hide-methods failed suite-Org.Project.SpiceJet_Test.HomePageTest -->
+                      <a href="#" panel-name="suite-Org.Project.SpiceJet_Test.HomePageTest" class="show-methods failed suite-Org.Project.SpiceJet_Test.HomePageTest"> (show)</a> <!-- show-methods failed suite-Org.Project.SpiceJet_Test.HomePageTest -->
+                    </span>
+                    <div class="method-list-content failed suite-Org.Project.SpiceJet_Test.HomePageTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Org.Project.SpiceJet_Test.HomePageTest" title="Org.Project.SpiceJet_Test.HomePageTest" hash-for-method="verifyAllState">verifyAllState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Org.Project.SpiceJet_Test.HomePageTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Org.Project.SpiceJet_Test.HomePageTest" class="panel Org.Project.SpiceJet_Test.HomePageTest">
+          <div class="suite-Org.Project.SpiceJet_Test.HomePageTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Org.Project.SpiceJet_Test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllState">
+                  </a> <!-- verifyAllState -->
+                  <span class="method-name">verifyAllState</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Element is not visible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;31c43c8&apos;, time: &apos;2016-08-02 21:57:56 -0700&apos;
+System info: host: &apos;Vishnu&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=6.3, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: fa70aaed-0147-48e7-ba28-8edfe4164847
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:319)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at Org.Project.SpicejetPageObjects.Homepage_Objects.selectState(Homepage_Objects.java:48)
+	at Org.Project.SpiceJet_Test.HomePageTest.verifyAllState(HomePageTest.java:50)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Org.Project.SpiceJet_Test.HomePageTest-class-failed -->
+        </div> <!-- panel Org.Project.SpiceJet_Test.HomePageTest -->
+        <div panel-name="test-xml-Org.Project.SpiceJet_Test.HomePageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Org.Project.SpiceJet_Test.HomePageTest&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Org.Project.SpiceJet_Test.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+  &lt;test name=&quot;Command line test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Org.Project.SpiceJet_Test.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;teardown&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;verifyAllState&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Org.Project.SpiceJet_Test.HomePageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Org.Project.SpiceJet_Test.HomePageTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Org.Project.SpiceJet_Test.HomePageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Org.Project.SpiceJet_Test.HomePageTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Command line test(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Org.Project.SpiceJet_Test.HomePageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Org.Project.SpiceJet_Test.HomePageTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Org.Project.SpiceJet_Test.HomePageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Org.Project.SpiceJet_Test.HomePageTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Org.Project.SpiceJet_Test.HomePageTest');
+function tableData_Org.Project.SpiceJet_Test.HomePageTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAllState')
+data.setCell(0, 2, 'Org.Project.SpiceJet_Test.HomePageTest')
+data.setCell(0, 3, 41109);
+window.suiteTableData['Org.Project.SpiceJet_Test.HomePageTest']= { tableData: data, tableDiv: 'times-div-Org.Project.SpiceJet_Test.HomePageTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <div id="times-div-Org.Project.SpiceJet_Test.HomePageTest">
+              </div> <!-- times-div-Org.Project.SpiceJet_Test.HomePageTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Org.Project.SpiceJet_Test.HomePageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Org.Project.SpiceJet_Test.HomePageTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Org.Project.SpiceJet_Test.HomePageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Org.Project.SpiceJet_Test.HomePageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Org.Project.SpiceJet_Test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAllState</span>
+                <span class="method-start">15001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">56110 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
