@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: Org.Project.SpiceJet_Test.HomePageTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.063 sec <<< FAILURE!
-verifyAllState(Org.Project.SpiceJet_Test.HomePageTest)  Time elapsed: 41.123 sec  <<< FAILURE!
-org.openqa.selenium.ElementNotVisibleException: Element is not visible (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 16 milliseconds
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 19.423 sec <<< FAILURE!
+setup(Org.Project.SpiceJet_Test.HomePageTest)  Time elapsed: 19.048 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.78 seconds
 Build info: version: 'unknown', revision: '31c43c8', time: '2016-08-02 21:57:56 -0700'
 System info: host: 'Vishnu', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=6.3, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
-Session ID: fa70aaed-0147-48e7-ba28-8edfe4164847
+Session ID: 300cd6c4-0ca8-414c-aaf6-e94b623dcc23
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -17,8 +17,6 @@ Session ID: fa70aaed-0147-48e7-ba28-8edfe4164847
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:319)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at Org.Project.SpicejetPageObjects.Homepage_Objects.selectState(Homepage_Objects.java:48)
-	at Org.Project.SpiceJet_Test.HomePageTest.verifyAllState(HomePageTest.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:331)
+	at Org.Project.SpiceJet_Test.HomePageTest.setup(HomePageTest.java:27)
 
