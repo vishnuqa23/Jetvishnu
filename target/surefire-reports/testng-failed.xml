@@ -10,6 +10,7 @@
     <classes>
       <class name="Org.Project.SpiceJet_Test.HomePageTest">
         <methods>
+          <include name="teardown"/>
           <include name="setup"/>
           <include name="verifyAllState"/>
         </methods>
