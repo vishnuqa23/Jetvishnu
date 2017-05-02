@@ -6,6 +6,7 @@ public class printname {
 		System.out.println("vishnu");
 		System.out.println("Ram");
 		System.out.println("Ram1");
+		System.out.println("hai");
 	}
 
 }
