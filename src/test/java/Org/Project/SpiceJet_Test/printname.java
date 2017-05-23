@@ -7,6 +7,8 @@ public class printname {
 		System.out.println("Ram");
 		System.out.println("Ram1");
 		System.out.println("hai");
+		System.out.println("test");
+		System.out.println("test1");
 	}
 
 }
