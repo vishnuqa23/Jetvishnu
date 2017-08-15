@@ -6,4 +6,15 @@
       <class name="Org.Project.SpiceJet_Test.HomePageTest"/>
     </classes>
   </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Org.Project.SpiceJet_Test.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyAllState"/>
+        </methods>
+      </class> <!-- Org.Project.SpiceJet_Test.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Org.Project.SpiceJet_Test.HomePageTest] -->
