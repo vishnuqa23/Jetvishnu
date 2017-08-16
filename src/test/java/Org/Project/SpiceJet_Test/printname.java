@@ -9,6 +9,7 @@ public class printname {
 		System.out.println("hai");
 		System.out.println("test");
 		System.out.println("test123");
+		System.out.println("addedbyvishnu");
 	}
 
 }
