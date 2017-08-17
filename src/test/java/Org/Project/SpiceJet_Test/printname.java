@@ -14,6 +14,7 @@ public class printname {
 		System.out.println("ZZZZZZZZZZZZZZZZZZZ");
 		System.out.println("QQQQQQQQQQQQQQQQQQQQQQQQQQQQQ");
 		System.out.println("ZXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
 	}
 
 }
